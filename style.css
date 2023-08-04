@@ -110,3 +110,44 @@ span {
     font-weight: 700;
     font-size: 0.85rem;
 }
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;  
+}
+
+.panel-options > p {
+    display: inline;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+
+}
+
+.panel-options {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.panel-all:hover, .panel-options > p:hover, .panel-deals:hover {
+    border: 2px solid white;
+}
