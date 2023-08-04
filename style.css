@@ -180,10 +180,32 @@ span {
 }
 
 .shop-section {
+    background-color: #e2e7e6;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .category {
-    border: 2px solid black;
-    height: 100px;
+    background-color: white;
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.category-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.category-image {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.category-content  p {
+    color: #007185;
 }
