@@ -151,3 +151,10 @@ span {
 .panel-all:hover, .panel-options > p:hover, .panel-deals:hover {
     border: 2px solid white;
 }
+
+
+.main-section {
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    height: 600px;
+}
