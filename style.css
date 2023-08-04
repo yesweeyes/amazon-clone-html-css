@@ -178,3 +178,12 @@ span {
 .main-message > a {
     color: #007185;
 }
+
+.shop-section {
+    display: flex;
+}
+
+.category {
+    border: 2px solid black;
+    height: 100px;
+}
